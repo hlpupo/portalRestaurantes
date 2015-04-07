@@ -1,0 +1,28 @@
+
+<ul class="nav nav-tabs" id="myTab">
+    <li class=""><a data-toggle="tab" href="#home">Aprobar anuncio</a></li>
+
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div id="home" class="tab-pane fade">
+        <form id="pn_form_menu" >
+            <div class=" alert alert-block alert-success  fade in" id="pn_show_status_true">
+                    <span class="alert-heading" >Su accion se ha realizado con exito.</span>
+                </div>
+            <div class=" alert alert-block alert-error fade in" id="pn_show_status_false">
+                <span class="alert-heading" id="pn_msg_error">Ha ocurrido un error, por favor intente de nuevo!</span>
+                </div>
+            <div class="control-group pn_form_registre_usser">
+                <label class="control-label_usser control-label " for="name">Descripci&oacute;n</label>
+                <div class="control-label_usser controls ">
+                    <select id="pn_admin_clasificacion_aununcio" >
+                        <option value="1">Cena pequeña</option>
+                        <option value="2">Cena grande</option>
+                    </select>
+                </div>
+            </div>
+            <input type="button" value="Clasificar" id="pn_btn_clasificar" class="btn btn-danger"/>
+        </form>
+    </div>
+
+</div>

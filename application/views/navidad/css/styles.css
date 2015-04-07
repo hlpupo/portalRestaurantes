@@ -1,0 +1,1070 @@
+/* 
+    Document   : styles
+    Created on : 16-oct-2012, 14:56:32
+    Author     : alejandra
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11pt;
+    line-height: 18px;
+     background-image: url("../img/Fondo8.jpg") !important  ;
+     background-repeat: no-repeat;
+}
+
+#pn_Conteneur_General
+{
+    width: 100%;
+}
+#pn_Conteneur 
+{
+    margin: 0 auto;
+    width: 940px;
+    /*background-image: url("../img/Fondo88.png") !important ;*/
+    height: 1202px;
+}
+/*
+estilos de la parte de los menu
+*/
+#pn_Conteneur_menu
+{
+    
+    width: 936px;;
+    height:71px;
+    box-shadow: 1px 1px 7px #6F6F6F;
+}
+/*
+Estilo de la parte de publicidad
+*/
+#pn_Conteneur_publicite
+{
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/banner.png") !important ;
+
+}
+/**
+Estilos del cuerpo
+*/
+#pn_corps
+{
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    
+    /*box-shadow: 4px 0 2px #000000;*/
+    box-shadow: 0 1px 7px #000000;
+    height: auto;
+    min-height: 892px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    width: 936px;
+
+}
+#pn_Panneau_Gauche
+{
+    float: left;
+   width: 670px;
+  
+    height: 825px;
+    background: none repeat scroll 0 0 #283B4A;
+    /*height: 90%;*/
+
+}
+
+
+#pn_Panneau_GaucheCMP{
+      float: left;
+   width: 670px;
+  
+    height: 790px;
+    background: none repeat scroll 0 0 #283B4A;
+    /*height: 90%;*/ 
+}
+#pn_Panneau_GaucheUsser{
+      float: left;
+   width: 670px;
+  
+    height: 790px;
+    background: none repeat scroll 0 0 #283B4A;
+    /*height: 90%;*/ 
+}
+#pn_Panneau_GaucheRest
+{
+      float: left;
+   width: 670px;
+  
+    height: 790px;
+    background: none repeat scroll 0 0 #283B4A;
+    /*height: 90%;*/ 
+}
+#pn_Panneau_GaucheRestFull
+{
+      float: left;
+   width: 936px;
+  
+    height: 790px;
+    background: none repeat scroll 0 0 #283B4A;
+    /*height: 90%;*/ 
+}
+
+#pn_Panneau_Gauche_forme_restaurate
+{
+    float: left;
+    width: 100%;
+    min-height: 665px;
+}
+#pn_Panneau_Droit
+{
+    float: right;
+/*    height: 100%;*/
+    margin-right: 10px;
+    width: 27%;
+
+}
+#pn_Restaurant_Publicite
+{
+    width: 655px;
+    height: 330px;
+   padding-left: 5px;
+   background: #283B4A;
+   margin-left: 0px;
+}
+
+#pn_area_index_publicidad
+{
+    padding: 5px;
+}
+.pn_show_contenedor_anuncio
+{
+    width: 650px;
+    height: 125px;
+    padding-left:  15px;  
+}
+#pn_Derniere_Enregistres
+{
+    margin-top: 5px;
+   margin-left: 0px;
+       width: 655px;
+    background: #FFFFFF;
+}
+#pn_show_restaurante_anuncio
+{
+      height: 615px;
+    margin-top: 8px;
+    overflow: auto;
+    padding: 11px;
+    width: 650px;
+}
+.pn_show_restaurante_anuncio_ofertas{
+    height: auto !important;
+    padding: 0px !important;
+}
+#pn_Debut_Section
+{
+
+    margin: 0px 15px 15px 15px;
+    width: 93%;
+}
+
+#pn_Debut_Section input[type="password"],input[type="email"],input[type="text"], select{
+    /*     height: 18px !important;
+       width: 170px !important;*/
+}
+.pn_utilisateur{
+    border-radius: 10px 10px 0 0;
+    height: 15px;
+
+    background-color: #1A3867;
+
+    box-shadow: 1px 2px 5px #6F6F6F;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 5px 0 7px;
+    overflow: auto;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase;
+}
+
+#pn_login
+{
+      float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+/*    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;*/
+
+}
+.pn_entrar_btn
+{
+    float: right;
+    margin: 20px;
+}
+/**Footer*/
+#pn_piedPage
+{
+
+/*    border-top: 1px solid #960000;*/
+    box-shadow: 1px 1px 7px #6F6F6F;
+    clear: both;
+    color: #FFFFFF;
+
+    overflow: auto;
+    padding: 2px;
+    height: 50px;
+     background: none repeat scroll 0 0 #283B4A;
+     
+    border-top: 1px solid #12619A;
+    box-shadow: 1px 1px 7px #6F6F6F;
+    
+    
+    
+}
+#pn_piedPage li {
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    padding: 3px 7px 1px;
+}
+
+#footer_namesite {
+     float: right;
+    text-shadow: 1px 1px 1px #000000;
+      
+    font-size: 9pt;
+    font-weight: bold;
+    margin: 20px 20px 0;
+}
+#pn_view_cont_forme
+{
+    padding: 0px 20px 0px 20px;
+    color: #FFFFFF;
+
+}
+#pn_view_cont_forme_usser
+{
+    border: 1px solid;
+    padding: 0px;
+    border-left: 2px solid #6F6F6F;
+    border-right: 2px solid #6F6F6F;
+    box-shadow: 1px 1px 7px #6F6F6F;
+
+    display: inline-block;
+    height: auto;
+    margin-left: 55px;
+    margin-top: 30px;
+    padding: 0;
+    width: 535px;
+
+}
+#pn_view_cont_forme_restaurant
+{
+    border: 1px solid;
+    margin-left:120px;
+    width: 440px;
+    padding: 0px;
+    border-left: 2px solid #960000;
+    border-right: 2px solid #960000;
+    box-shadow: 1px 1px 7px #6F6F6F;
+
+    display: inline-block;
+    height: auto;
+    margin-top:10px; 
+    float: left;
+    background: none repeat scroll 0 0 #DB3C31;
+}
+.pn_control_tipo_registro
+{
+    display: inline-block;
+    width: 110px;
+}
+#pn_control_tipo_registro_head
+{
+    width: 100%;
+}
+.pn_head_registre
+{
+    border-radius: 5px 5px 0 0;
+    height: 15px;
+    width: 98%;
+    background-color: #1A3867;
+
+    box-shadow: 1px 2px 5px #6F6F6F;
+    color: #FFFFFF;
+    font-size: 16px;
+
+    overflow: auto;
+    padding: 9px;
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase; 
+}
+.pn_input-xlarge{
+    width: 390px;
+}
+.pn_input-xlarge_Rest
+{
+    width: 160px; 
+}
+.control-label_usser
+{
+    margin: 0px  !important;
+    text-align: left !important;
+
+}
+.pn_form_registre_usser{ 
+
+    margin: 0px  !important;
+}
+
+.pn_form_registre_restaurante{ 
+
+     margin: 10px 10px 10px 13px !important;
+}
+.pn_form_registre_Anuncio{ 
+
+     margin: 10px 10px 10px 13px !important;
+}
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(assets/img/valid.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+label.error {
+    color: red;
+
+}
+.form-actions
+{
+
+    padding: 5px 0px 0px 63% !important;
+    background: none repeat scroll 0 0 #DB3C31;
+    float: left;
+}
+.form-actions_CMV {
+    background: none repeat scroll 0 0 #DB3C31;
+    float: left;
+    padding: 5px 0 0 58% !important;
+}
+.usser_form
+{
+    margin: 0px  !important;
+}
+#view_forme_usser_enregistrer_success
+{
+    margin-left: 150px;
+    padding: 50px;
+    width: 500px;
+}
+
+#pn_Panneau_Utilisateur
+{
+    margin-left: 20px;
+    width: 580px;
+}
+.pn_cont_information_head
+{
+    background-color: #1A3867;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 2px 5px #6F6F6F;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 15px;
+    margin: 5px 0 7px;
+    overflow: auto;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase;
+
+}
+#pn_cont_information_usser_head
+{
+    width: 580px;
+}
+#pn_cont_information_usser_corp{
+
+    min-height: 570px;
+    padding: 0px 20px 20px 20px;
+    width: 550px;
+    margin-top: 15px;
+
+
+    display: block;
+    float: left;
+    padding: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+.pn_cont_information_corp
+{
+    background-color: rgba(0, 0, 0, 0.17);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    color: #FFFFFF;
+    font-size: 12pt;
+    margin-top: -5px;
+    min-height: 20px;
+}
+#pn_Restaurant_plus_demandes
+{
+    height: 260px;
+    padding: 6px;
+    width: 222px;
+}
+#pn_image_promotion
+{
+    height: 250px;
+    width: 221px;
+}
+#pn_cont_image_promotion
+{
+    margin-top: 30px;
+}
+.pn_option_select
+{
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #D4D6D8;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    margin: 0.2em 0.5em 0 5px;
+    padding: 6px;
+    text-align: center;
+}
+#pn_pedido
+{
+    background-image: url("../img/iconos/notes-edit-128x128.png") !important ;
+    height: 100px;
+    margin: 7px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+.pn_selectionner_usser{
+    width: 150px;
+}
+#pn_cont_add_menu_foto
+{
+    margin-top: 30px;
+}
+#pn_form_menu
+{
+    width: 340px;
+}
+div.pn_cont_menu_restaurant div
+{
+    clear: both;
+}
+div.pn_cont_menu_restaurant div label
+{
+    float: left;
+}
+.pn_cont_menu_restaurant_head
+{
+    width: 80px;
+}
+.pn_cont_menu_restaurant
+{
+    border: 1px solid;
+}
+
+#pn_cont_ofertas_anuncio input[type="text"]
+{
+    height: 12px !important;
+}
+.pn_cont_ofertas_anuncio_costo
+{
+    width: 50px;
+}
+.comment-main {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    padding: 6px;
+}
+.spacer {
+    margin-bottom: 5px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+.tbl2 {
+    background-color: #F1F1F1;
+    color: #555555;
+    font-size: 12px;
+    padding: 4px;
+}
+.floatfix {
+    overflow: hidden;
+}
+
+.tbl1 {
+    background-color: #FFFFFF;
+    color: #555555;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.comment-name {
+    color: #04688D;
+    font-weight: bold;
+}
+
+.tbl1 {
+    background-color: #FFFFFF;
+    color: #555555;
+    font-size: 12px;
+    padding: 4px;
+}
+.navbar-inner {
+    background: #524C45;
+    color: #FFFFFF !important;
+}
+.navbar .brand {
+    color: #FFFFFF !important;
+}
+.navbar .nav > li > a {
+    color: #FFFFFF !important;
+    font-size: 11pt;
+}
+
+.pn_ultimos_anuncios{
+
+        border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.45);
+    float: left;
+   
+    margin: 3px;
+    vertical-align: middle;
+    width: 321px;
+}
+.pn_ultimos_anuncios_plantilla {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.45);
+    float: left;
+    height: 94px;
+    margin: 5px;
+    vertical-align: middle;
+    width: 300px;
+}
+.pn_show_anuncio
+{
+    width: 610px;
+}
+.pn_show_anuncio_head
+{
+    width: 610px !important;
+}
+.pn_ultimos_anuncios_head
+{
+    border-radius: 5px 5px 0px 0px;
+    height: 22px;
+    padding: 5px 0 0 0px;
+    /*width: 291px;*/
+    background-image: -moz-linear-gradient(center top , #D24819, #D24819);
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.pn_ultimos_anuncios_head  a 
+{
+    padding: 5px;
+}
+.pn_ultimos_anuncios_info
+{
+    background-color: #B35D4C;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+/*    border-radius: 0 0 7px 7px;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    min-height: 20px;
+    width: 100%;
+    font-size: 8pt;
+    color: #ffffff;
+}
+.pn_ultimos_anuncio_descrip{
+     background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    height: auto;
+    min-height: 83px;
+    padding-left: 10px;
+}
+
+a{
+    color: #ffffff !important;
+}
+.pn_ultimos_anuncios_info > div
+{
+    float: left;
+}
+.pn_calendar{
+    background-image: url("../img/iconos/date.png") ;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-left: 10px;
+}
+.pn_show_info_anuncio{
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-left: 10px;
+}
+.pn_provincia
+{
+    background-image: url("../img/iconos/date.png") ;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    margin-left: 10px; 
+}
+.pn_commet_dialog
+{
+    background-image: url("../img/iconos/comments-128x128.png") ;
+    background-repeat: no-repeat;
+    height: 24px;
+    padding-left: 27px;
+    width: 24px;
+}
+.pn_delete
+{
+    background-image: url("../img/iconos/remove.png") ;
+    background-repeat: no-repeat;
+    height: 24px;
+    padding-left: 27px;
+    width: 24px;
+}
+#pn_show_change_password
+{
+    width: 300px;
+    margin-left: 150px;
+}
+.pn_view_cont_forme
+{
+    border: 1px solid;
+    margin-left: 95px;
+    width: 700px;
+    padding: 0px;
+    border-left: 2px solid #960000;
+    border-right: 2px solid #960000;
+    box-shadow: 1px 1px 7px #6F6F6F;
+
+    display: inline-block;
+    height: auto;
+    margin-top: 20px; 
+}
+#pn_cmv_alta_restaurante_grid
+{
+
+}
+#pn_view_cmv_cont_forme_restaurant
+{
+    width: 600px;
+    margin-left: 0px;
+}
+.pn_form_textarea
+{
+    padding: 10px;
+    width: 300px;
+}
+.pn_form_textarea_cmv
+{
+    float: left;
+    width: 230px;
+    padding: 0px;
+}
+.promocion
+{
+    width: auto;
+    margin: 5px;
+    min-height: 160px;
+    width: 205px;
+}
+.pn_promociones_index{
+
+    display: table;
+    margin: 0 -5px;
+    position: relative;
+    z-index: 15;
+    box-shadow: 1px 3px 15px #6F6F6F;
+}
+.well{
+/*    background: #AE6350;*/
+ background: none repeat scroll 0 0 #DB3C31;
+}
+
+.pn_list
+{
+    list-style: none outside none;
+}
+.pn_list li
+{
+    padding: 5px;
+}
+.pn_promocion_protal, .pn_otros_anuncios, .pn_listado_provincia
+{
+    margin: 0 15px 15px;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-top: 10px;
+    min-height: 180px;
+    padding: 20px 20px 0 25px;
+}
+
+#pn_cont_information_usser_corp .thumbnails > li {
+    margin: 10px 18px 0 25px;
+    width: 145px;
+}
+.pn_form-actions
+{
+    margin-left: 10px;
+}
+
+/*----- -------------*/
+#pn_cmp_add_promociones
+{
+    float: left;
+    height: auto;
+    margin-top: 20px;
+    padding: 19px 19px 19px 0;
+    width: 525px;
+}
+
+#pn_publicite_Aliments
+{
+    margin: 0 15px 5px;
+    width: 93%;
+}
+#pn_ultimos_restaurantes
+{
+    float: left;
+    width: 935px;
+/*     border-left: 2px solid #000000;
+    border-right: 2px solid #000000;*/
+    box-shadow: 0 1px 7px #000000;
+    height: 73px;
+    
+}
+#pn_show_cant_anunci_provi
+{
+    color: #FFFFFF;
+    font-size: 12pt;
+    height: 367px;
+    margin-top: 10px;
+    width: 233px;
+}
+#pn_admin_conte_Gauche table thead tr th, tbody tr td {
+    color: #FFFFFF !important;
+    font-size: 11pt !important;
+
+}
+.ui-widget-header {
+    background: none repeat scroll 0 0 #64322B !important;
+    color: #FFFFFF !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: none repeat scroll 0 0 #64322B !important;
+    color: #FFFFFF !important;
+}
+.ui-widget-content
+{
+    background: none repeat scroll 0 0 #283B4A !important;
+/*    border: 1px solid rgba(0, 0, 0, 0.05) !important;*/
+}
+.ui-state-hover{
+    background: none repeat scroll 0 0 #DA251C !important;
+}
+#pn_show_seccion_anuncios
+{
+    margin: 10px;
+}
+.show_restaurante_provincia{
+    float: left;
+    margin: 0px
+}
+.show_cont_restaurante_provincia{
+    width: 92%;
+    color: #ffffff;
+    background: none repeat scroll 0 0 #AE6350;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+.pn_accpet_condiciones
+{
+    width: 455px;
+    height: 170px;
+    overflow: auto;
+    float: left;
+    border: 2px solid #ffffff;
+    padding: 5px;
+}
+.pn_accpet_condiciones_restaurante
+{
+    width: 355px;
+    height: 170px;
+    overflow: auto;
+    float: left;
+    border: 2px solid #ffffff;
+    padding: 5px;
+}
+.pn_conte_provincia_zona
+{
+   
+    height: 333px;
+    text-shadow: 1px 1px 1px #000000;
+}
+#pn_conte_provincia_zona_List
+{
+     height: 710px;
+}
+.pn_cont_busqueda{
+
+}
+.pn_cont_busqueda_table
+{
+    text-align: right;
+    text-shadow: 1px 1px 1px #000000;
+}
+.pn_select
+{
+    border-color: #B94A48;
+    height: 25px;
+    border-radius: 4px 4px 4px 4px;
+
+}
+
+.pn_cont_publicidad_head
+{
+    background: #6F4640;
+    width: 100%;
+    height: 20px;
+}
+.pn_cont_busqueda_table_check
+{
+    text-align:  left;
+}
+.form-actions_find
+{
+    border-top: 1px solid #ffffff;
+    height: 20px;
+    padding: 5px 0 0 63% !important;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    padding: 17px 20px 18px;
+}
+/*-----------------------------*/
+.pn_cont_opcion_registre
+{
+    border: 1px solid #FFFFFF;
+    width: 250px;
+    margin: 10px 10px 10px 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 0 3px rgba(0, 0, 0, 0.45);
+    background: #DB3C31;
+    float: left;
+    font-weight: bold;
+    min-height: 507px;
+}
+.pn_cont_opcion_registre:hover
+{
+    background: #FD4809;
+}
+.pn_cont_opcion_registre_head
+{
+       border: 2px inset #FFFFFF;
+    border-radius: 9px 9px 9px 9px;
+    color: #FFFFFF;
+    font-size: 23pt;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: 10px;
+    padding: 9px;
+    text-align: center;
+    width: 125px;
+}
+.pn_cont_opcion_registre_btn{
+ padding-left: 75px !important;
+}
+.pn_disponible
+{
+    background-image: url("../img/iconos/accept.png") !important;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 10pt;
+    height: 18px;
+    margin: 7px;
+    padding-left: 25px;
+    padding-top: 0;
+    width: 150px;
+}
+.pn_Nodisponible
+{
+    background-image: url("../img/iconos/remove-30x30.png") !important ;
+      background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 10pt;
+    height: 18px;
+    margin: 7px;
+    padding-left: 25px;
+    padding-top: 0;
+    width: 150px;
+}
+.pn_cont_opcion_registre_opciones
+{
+    border-top: 1px solid #ffffff;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    padding: 5px 10px 0px;
+}
+.pn_cont_opcion_registre_opciones h5
+{
+    color: #FFFFFF;
+}
+.pn_cont_opcion_registre_btn a{
+    margin-top: 10px;
+}
+.breadcrumb {
+/*   background: none repeat scroll 0 0 #DB3C31;*/
+    margin: 0 0 0px;
+    background: none repeat scroll 0 0 #283B4A;
+}
+.dropdown-menu
+{
+    background: #DB3C31;
+    
+}
+#pn_show_info_cmv
+{
+      color: #FFFFFF;
+    font-size: 12pt;
+   
+    margin-top: 10px;
+    width: 233px;
+}
+.pn_slide{
+    width: 100%;
+        height: 20px;
+}
+#slider2
+{
+    height: 160px;
+    margin-top: 45px;
+}
+.pagination a {
+     line-height: 25px;
+}
+.pagination a:hover, .pagination .active a {
+    background-color: #46211D;
+}
+.form_label {
+
+}
+#pn_cont_dialog
+{
+  overflow: auto;
+  height: 200px;
+}
+.pn_respond_dialog
+{
+  margin-top: 10px;
+}
+#pn_comentar_dialog_btn
+{
+ margin-left: 30px;
+    margin-top: 32px
+}
+.thumbnail 
+{
+  padding: 0px;
+  margin-left: 2px;
+   border: 3px solid #DDDDDD;
+}
+#pn_logo
+{
+    
+    background-image: url("../img/eventosaunclick_012_logoT.jpg") !important ;
+    width: 167px;
+    height: 63px;
+    float: left;
+}
+#pn_registre
+{
+  float: right;
+  width: 80%;
+  height: 35px;
+}
+#pn_cont_menu{
+  float: left;
+  width: 940px;
+}
+.add-on
+{
+  background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    border: 1px solid #DA4F49 !important;
+    height: 17px !important;
+}
+
+.pn_cont_slide_publicidad
+{
+  margin-bottom: 20px;
+}
+.pn_footer{
+       float: left;
+    font-size: 9pt;
+    font-weight: bold;
+    margin: 20px 20px 0;
+    
+}
+#pn_banner_index_promocional
+{
+   border: 1px solid;
+    height: 115px;
+    margin: 5px 0;
+    width: 657px;
+}
+#pn_publicidad_anuncios
+{
+      background: none repeat scroll 0 0 #283B4A;
+        box-shadow: 1px 3px 10px #6F6F6F;
+}
+#pn_top_dix
+{
+    width: 225px;
+    height: 200px;
+}
+#pn_top_dix label
+{
+    text-shadow: 1px 1px 1px #000000;
+     color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+    background-color: #283B4A;
+}
+#pn_table_anucio_rest tr td
+{
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.pn_anuncio_restuarante
+{
+   background: none repeat scroll 0 0 #283B4A !important;
+}

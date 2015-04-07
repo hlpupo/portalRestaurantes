@@ -1,0 +1,35 @@
+<ul class="nav nav-tabs" id="myTab">
+    <li class=""><a data-toggle="tab" href="#home">Enviar presupuesto</a></li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div id="home" class="tab-pane fade">
+        
+        <form id="pn_restaurant_ofert_form" >
+              <div class=" alert alert-block alert-success  fade in" id="pn_show_status_true">
+                    <span class="alert-heading" >Su accion se ha realizado con exito.</span>
+                </div>
+            <div class=" alert alert-block alert-error fade in" id="pn_show_status_false">
+                <span class="alert-heading" id="pn_msg_error">Ha ocurrido un error, por favor intente de nuevo!</span>
+                </div>
+            <div class=" alert alert-block alert-error fade in" id="pn_show_status_tipo">
+                <span class="alert-heading" id="pn_msg_error">Usted a consumido las cantidades de pedidos asignados.</span>
+                </div>
+        <div >
+            <div class="control-group pn_form_registre_usser">
+                <label class="control-label_usser control-label " for="name">Costo</label>
+                <div class="control-label_usser controls ">
+                    <input type="text" class=" input-mini" id="pn_anun_costo" name="pn_anun_costo" >
+                </div>
+            </div>
+            <div class="control-group pn_form_registre_usser">
+                <label class="control-label_usser control-label " for="name">Descripci&oacute;n</label>
+                <div class="control-label_usser controls ">
+                    <textarea rows="3" id="pn_anun_descripcion" name="pn_anun_descripcion" class="input-xlarge"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Ofertar" id="pn_returant_ofert" class="btn btn-primary"/>
+            
+        </div>
+    </form>
+    </div>
+</div>
